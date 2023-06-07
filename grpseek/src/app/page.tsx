@@ -1,5 +1,3 @@
-import images from '../../public/metrics.png'
-
 export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-between p-0 m-0 bg-[#FFFFFF]">
@@ -67,27 +65,29 @@ export default function Home() {
   </div>
 </div>
 <div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
-  <div className="hero-content flex-col sm:flex-col md:flex-row lg:flex-row">
-  <div className="hero-content flex-col lg:flex-row px-7 pb-4">
-  <img src="/graphs.png" className="h-20 w-20 rounded-lg rounded-lg"/>
+  <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
+    <div className="px-5 pb-4">
+    <img src="/graphs.png" className="h-20 w-20 rounded-lg"/>
 </div>
-    <div>
+    <div className="p-10">
       <h1 className="text-5xl font-bold text-black">Graphs</h1>
-      <p className="py-6 pr-15 text-black text-lg">Harness the power of gRPSeek by visualizing gRPC load and latency tests with a click of a button</p>
+      <p className="py-6 pr-7 text-black text-lg">Harness the power of gRPSeek by visualizing gRPC load and latency tests with a click of a button</p>
     </div>
   </div>
 </div>
 <div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
   <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
-  <div className="px-5 pb-4">
-  <img src="/proto.png" className="h-20 w-20 rounded-lg rounded-lg"/>
+    <div className="px-5 pb-4">
+    <img src="/proto.png" className="h-20 w-20 rounded-lg"/>
 </div>
-    <div>
+    <div className="p-10">
       <h1 className="text-5xl font-bold text-black">Proto Mapping</h1>
-      <p className="py-6 pr-5 text-black text-lg">Upload your proto files to visualize the complex relationship between services and messages.</p>
+      <p className="py-6 pr-7 text-black text-lg">Upload your proto files to visualize the complex relationship between services and messages</p>
     </div>
   </div>
 </div>
+
+
 </div>
 
 <section className="bg-white dark:bg-gray-900">
@@ -97,9 +97,9 @@ export default function Home() {
       </div> 
       <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="Kenneth.png" alt="Kenneth Nguyen Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Kenneth Nguyen</a>
+                  Kenneth Nguyen
               </h3>
               <p>Software Engineer</p>
               <ul className="flex justify-center mt-4 space-x-4">
@@ -117,9 +117,9 @@ export default function Home() {
               </ul>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Patryk.png" alt="Patryk Ploszaj Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Patryk Ploszaj</a>
+                  Patryk Ploszaj
               </h3>
               <p>Software Engineer</p>
               <ul className="flex justify-center mt-4 space-x-4">
@@ -138,9 +138,9 @@ export default function Home() {
           </div>
 
           <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Miri.png" alt="Miri Son Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Miri Son</a>
+                  Miri Son
               </h3>
               <p>Software Engineer</p>
               <ul className="flex justify-center mt-4 space-x-4">
@@ -159,9 +159,9 @@ export default function Home() {
           </div>
 
           <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/John.png" alt="John McConnell Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">John McConnell</a>
+                  John McConnell
               </h3>
               <p>Software Engineer</p>
               <ul className="flex justify-center mt-4 space-x-4">
