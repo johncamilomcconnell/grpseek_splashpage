@@ -54,13 +54,13 @@ export default function Home() {
 </div>
 
 
-<div className="">
+<div>
 <div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
   <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
-    <div className="px-7 pb-4">
-    <img src="/metrics.png" className="max-w-sm rounded-lg"/>
+    <div className="px-5 pb-4">
+    <img src="/metrics.png" className="h-20 w-20 rounded-lg"/>
 </div>
-    <div p-10>
+    <div className="p-10">
       <h1 className="text-5xl font-bold text-black">Metrics</h1>
       <p className="py-6 pr-7 text-black text-lg">Access RPC message counters, error percentage, average stream size, slow query percentage</p>
     </div>
@@ -68,8 +68,8 @@ export default function Home() {
 </div>
 <div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
   <div className="hero-content flex-col sm:flex-col md:flex-row lg:flex-row">
-  <div className="px-7 pb-4">
-  <img src="/graphs.png" className="max-w-sm rounded-lg"/>
+  <div className="hero-content flex-col lg:flex-row px-7 pb-4">
+  <img src="/graphs.png" className="h-20 w-20 rounded-lg rounded-lg"/>
 </div>
     <div>
       <h1 className="text-5xl font-bold text-black">Graphs</h1>
@@ -80,10 +80,10 @@ export default function Home() {
 <div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
   <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
   <div className="px-5 pb-4">
-  <img src="/proto.png" className="max-w-sm rounded-lg"/>
+  <img src="/proto.png" className="h-20 w-20 rounded-lg rounded-lg"/>
 </div>
     <div>
-      <h1 className="text-5xl font-bold text-white">Proto Mapping</h1>
+      <h1 className="text-5xl font-bold text-black">Proto Mapping</h1>
       <p className="py-6 pr-5 text-black text-lg">Upload your proto files to visualize the complex relationship between services and messages.</p>
     </div>
   </div>
