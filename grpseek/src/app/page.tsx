@@ -45,11 +45,11 @@ export default function Home() {
 </div>
       </div>
       <div className="hero py-24 bg-[#FFFFFF]">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="/gRPSeek_video2.gif" className="max-w-2xl rounded-lg shadow-2xl" />
+  <div className="hero-content flex-col lg:flex-row-reverse sm:flex-col">
+    <img src="/gRPSeek_video2.gif" className="sm:object-scale-down rounded-lg shadow-2xl sm:max-w-sm md:max-w-xl lg:max-w-2xl " />
     <div>
       <h1 className="text-6xl font-bold text-gray-900">See the Unseen</h1>
-      <p className="py-6 text-xl text-black">We simplify the understanding and analysis of gRPC-based applications by providing comprehensive visualizations of metrics and proto file structures</p>
+      <p className="py-6 text-xl text-gray-600">We simplify the understanding and analysis of gRPC-based applications by providing comprehensive visualizations of metrics and proto file structures</p>
       <a href="https://github.com/oslabs-beta/gRPSeek">
       <button className="btn btn-primary bg-[#345f5f] rounded-lg">Start Seeking</button>
       </a>
@@ -63,7 +63,7 @@ export default function Home() {
   <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 bg-white">
       <div className="max-w-screen-md mb-8 lg:mb-16 bg-white">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 bg-white">Designed for gRPC developers like you</h2>
-          <p className="text-gray-500 sm:text-xl">Here at gRPSeek we want to help developers and companies elevate their application development, improve productivity, and deliver exceptional user experiences.</p>
+          <p className="text-gray-500 sm:text-xl">Here at gRPSeek we want to help developers and companies elevate their application development, improve productivity, and deliver exceptional user experiences</p>
       </div>
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           <div>
@@ -73,7 +73,7 @@ export default function Home() {
 </svg>
               </div>
               <h3 className="mb-2 text-xl text-gray-900 font-bold bg-white">Metrics</h3>
-              <p className="text-gray-500 dark:text-gray-400">Access total gRPC requests, system and user CPU usage, total latency duration in seconds</p>
+              <p className="text-gray-500">Access total gRPC requests, system and user CPU usage, total latency duration in seconds</p>
           </div>
           <div>
               <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
@@ -81,7 +81,7 @@ export default function Home() {
   <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold text-gray-900 dark:text-white bg-white">Graphs</h3>
+              <h3 className="mb-2 text-xl font-bold text-gray-900 bg-white">Graphs</h3>
               <p className="text-gray-500">Harness the power of gRPSeek by visualizing gRPC load and latency tests with a click of a button</p>
           </div>
           <div>
@@ -90,8 +90,8 @@ export default function Home() {
   <path fillRule="evenodd" d="M11.622 1.602a.75.75 0 01.756 0l2.25 1.313a.75.75 0 01-.756 1.295L12 3.118 10.128 4.21a.75.75 0 11-.756-1.295l2.25-1.313zM5.898 5.81a.75.75 0 01-.27 1.025l-1.14.665 1.14.665a.75.75 0 11-.756 1.295L3.75 8.806v.944a.75.75 0 01-1.5 0V7.5a.75.75 0 01.372-.648l2.25-1.312a.75.75 0 011.026.27zm12.204 0a.75.75 0 011.026-.27l2.25 1.312a.75.75 0 01.372.648v2.25a.75.75 0 01-1.5 0v-.944l-1.122.654a.75.75 0 11-.756-1.295l1.14-.665-1.14-.665a.75.75 0 01-.27-1.025zm-9 5.25a.75.75 0 011.026-.27L12 11.882l1.872-1.092a.75.75 0 11.756 1.295l-1.878 1.096V15a.75.75 0 01-1.5 0v-1.82l-1.878-1.095a.75.75 0 01-.27-1.025zM3 13.5a.75.75 0 01.75.75v1.82l1.878 1.095a.75.75 0 11-.756 1.295l-2.25-1.312a.75.75 0 01-.372-.648v-2.25A.75.75 0 013 13.5zm18 0a.75.75 0 01.75.75v2.25a.75.75 0 01-.372.648l-2.25 1.312a.75.75 0 11-.756-1.295l1.878-1.096V14.25a.75.75 0 01.75-.75zm-9 5.25a.75.75 0 01.75.75v.944l1.122-.654a.75.75 0 11.756 1.295l-2.25 1.313a.75.75 0 01-.756 0l-2.25-1.313a.75.75 0 11.756-1.295l1.122.654V19.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
 </svg>                  
               </div>
-              <h3 className="mb-2 text-xl font-bold text-gray-900 dark:text-white">Proto Mapping</h3>
-              <p className="text-gray-500 dark:text-gray-400">Upload your proto files to visualize the complex relationship between services and messages</p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">Proto Mapping</h3>
+              <p className="text-gray-500">Upload your proto files to visualize the complex relationship between services and messages</p>
           </div>
       </div>
   </div>
@@ -101,12 +101,12 @@ export default function Home() {
 <section className="bg-white">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center bg-white lg:py-16 lg:px-6">
       <div className="mx-auto mb-8 bg-white max-w-screen-sm lg:mb-16">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Our Team</h2>
       </div> 
       <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <div className="text-center text-gray-900 dark:text-gray-400">
+          <div className="text-center text-gray-500">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="Kenneth.png" alt="Kenneth Nguyen Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Kenneth Nguyen
               </h3>
               <p>Software Engineer</p>
@@ -124,9 +124,9 @@ export default function Home() {
                   </li>
               </ul>
           </div>
-          <div className="text-center text-gray-500 dark:text-gray-400">
+          <div className="text-center text-gray-500">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Patryk.png" alt="Patryk Ploszaj Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Patryk Ploszaj
               </h3>
               <p>Software Engineer</p>
@@ -145,9 +145,9 @@ export default function Home() {
               </ul>
           </div>
 
-          <div className="text-center text-gray-500 dark:text-gray-400">
+          <div className="text-center text-gray-500">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Miri.png" alt="Miri Son Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Miri Son
               </h3>
               <p>Software Engineer</p>
@@ -168,7 +168,7 @@ export default function Home() {
 
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/John.png" alt="John McConnell Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   John McConnell
               </h3>
               <p>Software Engineer</p>
