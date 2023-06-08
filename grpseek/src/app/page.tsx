@@ -2,13 +2,17 @@ export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-between p-0 m-0 bg-[#FFFFFF]">
       <div className="z-15 w-full max-w-7xl items-center justify-between font-quicksand text-sm lg:flex bg-[#FFFFFF]" >
-        <div className="navbar p-5 bg-[#FFFFFF]">
+        <div className="navbar pt-5 bg-[#FFFFFF]">
   <div className="flex-1">
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.8" stroke="#01563b" className="w-9 h-9">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-</svg>
-<a href='http://localhost:3002/' className="btn btn-ghost normal-case text-4xl p-1 bg-[#FFFFFF]">gRPSeek</a>
+    
+  <a href='#'>
+  <div className="flex flex-row justify-start justify-items-start content-center items-center">
+  <div className='flex-row'><img src='/grpseek_logo_lg.png' className="h-12 p-0 m-0"></img></div>
+  <div><h1 className="text-4xl font-semibold pl-2">gRPSeek</h1></div>
   </div>
+  </a>
+  </div>
+
   <div className="flex-none">
     <div className="p-0.5">
     <a href="https://github.com/oslabs-beta/gRPSeek">
@@ -29,7 +33,7 @@ export default function Home() {
       </a>
     </div>
     <div className="p-0.5">
-    <a href="https://www.medium.com/">
+    <a href="https://medium.com/@grpseek/grpseek-90dc8cbac8bf">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-sm">
           <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Medium_svg5-512.png" />
@@ -40,54 +44,58 @@ export default function Home() {
   </div>
 </div>
       </div>
-      <div className="hero min-h-screen bg-[#FFFFFF]">
+      <div className="hero py-24 bg-[#FFFFFF]">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://kubehawk.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FaddCluster.22a3dc0f.gif&w=2048&q=75" className="max-w-2xl rounded-lg shadow-2xl" />
+    <img src="/gRPSeek_video2.gif" className="max-w-2xl rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-5xl font-bold ">See the Unseen</h1>
-      <p className="py-6">We simplify the understanding and analysis of gRPC-based applications by providing comprehensive visualizations of metrics and proto file structures</p>
+      <h1 className="text-6xl font-bold ">See the Unseen</h1>
+      <p className="py-6 text-xl">We simplify the understanding and analysis of gRPC-based applications by providing comprehensive visualizations of metrics and proto file structures</p>
+      <a href="https://github.com/oslabs-beta/gRPSeek">
       <button className="btn btn-primary bg-[#345f5f] rounded-lg">Start Seeking</button>
+      </a>
+      
     </div>
   </div>
 </div>
-
 
 <div>
-<div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
-  <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
-    <div className="px-5 pb-4">
-    <img src="/metrics.png" className="h-20 w-20 rounded-lg"/>
-</div>
-    <div className="p-10">
-      <h1 className="text-5xl font-bold text-black">Metrics</h1>
-      <p className="py-6 pr-7 text-black text-lg">Access RPC message counters, error percentage, average stream size, slow query percentage</p>
-    </div>
+<section className="bg-white dark:bg-gray-900">
+  <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div className="max-w-screen-md mb-8 lg:mb-16">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for gRPC developers like you</h2>
+          <p className="text-gray-500 sm:text-xl dark:text-gray-400">Here at gRPSeek we want help developers and companies elevate their application development, improve productivity, and deliver exceptional user experiences focus on teams where technology, innovation, and capital can unlock long-term value and drive growth.</p>
+      </div>
+      <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#345f5f" className="w-32 h-50">
+  <path d="M6 3a3 3 0 00-3 3v2.25a3 3 0 003 3h2.25a3 3 0 003-3V6a3 3 0 00-3-3H6zM15.75 3a3 3 0 00-3 3v2.25a3 3 0 003 3H18a3 3 0 003-3V6a3 3 0 00-3-3h-2.25zM6 12.75a3 3 0 00-3 3V18a3 3 0 003 3h2.25a3 3 0 003-3v-2.25a3 3 0 00-3-3H6zM17.625 13.5a.75.75 0 00-1.5 0v2.625H13.5a.75.75 0 000 1.5h2.625v2.625a.75.75 0 001.5 0v-2.625h2.625a.75.75 0 000-1.5h-2.625V13.5z" />
+</svg>
+              </div>
+              <h3 className="mb-2 text-xl font-bold dark:text-white">Metrics</h3>
+              <p className="text-gray-500 dark:text-gray-400">Access total gRPC requests, system and user CPU usage, total latency duration in seconds</p>
+          </div>
+          <div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#345f5f" className="w-32 h-32">
+  <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
+</svg>
+              </div>
+              <h3 className="mb-2 text-xl font-bold dark:text-white">Graphs</h3>
+              <p className="text-gray-500 dark:text-gray-400">Harness the power of gRPSeek by visualizing gRPC load and latency tests with a click of a button</p>
+          </div>
+          <div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#345f5f" className="w-32 h-32">
+  <path fillRule="evenodd" d="M11.622 1.602a.75.75 0 01.756 0l2.25 1.313a.75.75 0 01-.756 1.295L12 3.118 10.128 4.21a.75.75 0 11-.756-1.295l2.25-1.313zM5.898 5.81a.75.75 0 01-.27 1.025l-1.14.665 1.14.665a.75.75 0 11-.756 1.295L3.75 8.806v.944a.75.75 0 01-1.5 0V7.5a.75.75 0 01.372-.648l2.25-1.312a.75.75 0 011.026.27zm12.204 0a.75.75 0 011.026-.27l2.25 1.312a.75.75 0 01.372.648v2.25a.75.75 0 01-1.5 0v-.944l-1.122.654a.75.75 0 11-.756-1.295l1.14-.665-1.14-.665a.75.75 0 01-.27-1.025zm-9 5.25a.75.75 0 011.026-.27L12 11.882l1.872-1.092a.75.75 0 11.756 1.295l-1.878 1.096V15a.75.75 0 01-1.5 0v-1.82l-1.878-1.095a.75.75 0 01-.27-1.025zM3 13.5a.75.75 0 01.75.75v1.82l1.878 1.095a.75.75 0 11-.756 1.295l-2.25-1.312a.75.75 0 01-.372-.648v-2.25A.75.75 0 013 13.5zm18 0a.75.75 0 01.75.75v2.25a.75.75 0 01-.372.648l-2.25 1.312a.75.75 0 11-.756-1.295l1.878-1.096V14.25a.75.75 0 01.75-.75zm-9 5.25a.75.75 0 01.75.75v.944l1.122-.654a.75.75 0 11.756 1.295l-2.25 1.313a.75.75 0 01-.756 0l-2.25-1.313a.75.75 0 11.756-1.295l1.122.654V19.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+</svg>                  
+              </div>
+              <h3 className="mb-2 text-xl font-bold dark:text-white">Proto Mapping</h3>
+              <p className="text-gray-500 dark:text-gray-400">Upload your proto files to visualize the complex relationship between services and messages</p>
+          </div>
+      </div>
   </div>
-</div>
-<div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
-  <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
-    <div className="px-5 pb-4">
-    <img src="/graphs.png" className="h-20 w-20 rounded-lg"/>
-</div>
-    <div className="p-10">
-      <h1 className="text-5xl font-bold text-black">Graphs</h1>
-      <p className="py-6 pr-7 text-black text-lg">Harness the power of gRPSeek by visualizing gRPC load and latency tests with a click of a button</p>
-    </div>
-  </div>
-</div>
-<div className="hero h-60 bg-white sm:flex-col md:flex-row lg:flex-row">
-  <div className="hero-content flex-col sm:flex-row md:flex-row lg:flex-row">
-    <div className="px-5 pb-4">
-    <img src="/proto.png" className="h-20 w-20 rounded-lg"/>
-</div>
-    <div className="p-10">
-      <h1 className="text-5xl font-bold text-black">Proto Mapping</h1>
-      <p className="py-6 pr-7 text-black text-lg">Upload your proto files to visualize the complex relationship between services and messages</p>
-    </div>
-  </div>
-</div>
-
-
+</section>
 </div>
 
 <section className="bg-white dark:bg-gray-900">
