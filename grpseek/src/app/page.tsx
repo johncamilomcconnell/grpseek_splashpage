@@ -2,16 +2,17 @@ export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-between p-0 m-0 bg-[#FFFFFF]">
       <div className="z-15 w-full max-w-7xl items-center justify-between font-quicksand text-sm lg:flex bg-[#FFFFFF]" >
-        <div className="navbar p-5 bg-[#FFFFFF]">
+        <div className="navbar pt-5 bg-[#FFFFFF]">
   <div className="flex-1">
-  
-<a href='#' className="btn btn-ghost normal-case text-4xl p-1 bg-[#FFFFFF]">
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.8" stroke="#345f5f" className="w-9 h-9">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-</svg>
-  gRPSeek
+    
+  <a href='#'>
+  <div className="flex flex-row justify-start justify-items-start content-center items-center">
+  <div className='flex-row'><img src='/grpseek_logo_lg.png' className="h-12 p-0 m-0"></img></div>
+  <div><h1 className="text-4xl font-semibold pl-2">gRPSeek</h1></div>
+  </div>
   </a>
   </div>
+
   <div className="flex-none">
     <div className="p-0.5">
     <a href="https://github.com/oslabs-beta/gRPSeek">
@@ -32,7 +33,7 @@ export default function Home() {
       </a>
     </div>
     <div className="p-0.5">
-    <a href="https://www.medium.com/">
+    <a href="https://medium.com/@grpseek/grpseek-90dc8cbac8bf">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-sm">
           <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Medium_svg5-512.png" />
@@ -62,7 +63,7 @@ export default function Home() {
   <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for gRPC developers like you</h2>
-          <p className="text-gray-500 sm:text-xl dark:text-gray-400">Here at gRPSeek we focus on teams where technology, innovation, and capital can unlock long-term value and drive growth.</p>
+          <p className="text-gray-500 sm:text-xl dark:text-gray-400">Here at gRPSeek we want help developers and companies elevate their application development, improve productivity, and deliver exceptional user experiences focus on teams where technology, innovation, and capital can unlock long-term value and drive growth.</p>
       </div>
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           <div>
