@@ -45,11 +45,11 @@ export default function Home() {
 </div>
       </div>
       <div className="hero py-24 bg-[#FFFFFF]">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="/gRPSeek_video2.gif" className="max-w-2xl rounded-lg shadow-2xl" />
+  <div className="hero-content flex-col lg:flex-row-reverse sm:flex-col">
+    <img src="/gRPSeek_video2.gif" className="sm:object-scale-down rounded-lg shadow-2xl sm:max-w-sm md:max-w-xl lg:max-w-2xl " />
     <div>
       <h1 className="text-6xl font-bold text-gray-900">See the Unseen</h1>
-      <p className="py-6 text-xl text-black">We simplify the understanding and analysis of gRPC-based applications by providing comprehensive visualizations of metrics and proto file structures</p>
+      <p className="py-6 text-xl text-gray-600">We simplify the understanding and analysis of gRPC-based applications by providing comprehensive visualizations of metrics and proto file structures</p>
       <a href="https://github.com/oslabs-beta/gRPSeek">
       <button className="btn btn-primary bg-[#345f5f] rounded-lg">Start Seeking</button>
       </a>
@@ -63,7 +63,7 @@ export default function Home() {
   <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 bg-white">
       <div className="max-w-screen-md mb-8 lg:mb-16 bg-white">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 bg-white">Designed for gRPC developers like you</h2>
-          <p className="text-gray-500 sm:text-xl">Here at gRPSeek we want to help developers and companies elevate their application development, improve productivity, and deliver exceptional user experiences.</p>
+          <p className="text-gray-500 sm:text-xl">Here at gRPSeek we want to help developers and companies elevate their application development, improve productivity, and deliver exceptional user experiences</p>
       </div>
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           <div>
@@ -104,7 +104,7 @@ export default function Home() {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Our Team</h2>
       </div> 
       <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <div className="text-center text-gray-900 dark:text-gray-400">
+          <div className="text-center text-gray-500">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="Kenneth.png" alt="Kenneth Nguyen Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Kenneth Nguyen
@@ -124,7 +124,7 @@ export default function Home() {
                   </li>
               </ul>
           </div>
-          <div className="text-center text-gray-500 dark:text-gray-400">
+          <div className="text-center text-gray-500">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Patryk.png" alt="Patryk Ploszaj Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Patryk Ploszaj
@@ -145,7 +145,7 @@ export default function Home() {
               </ul>
           </div>
 
-          <div className="text-center text-gray-500 dark:text-gray-400">
+          <div className="text-center text-gray-500">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Miri.png" alt="Miri Son Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Miri Son
