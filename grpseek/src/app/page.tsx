@@ -106,7 +106,7 @@ export default function Home() {
       <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div className="text-center text-gray-900 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="Kenneth.png" alt="Kenneth Nguyen Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Kenneth Nguyen
               </h3>
               <p>Software Engineer</p>
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Patryk.png" alt="Patryk Ploszaj Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Patryk Ploszaj
               </h3>
               <p>Software Engineer</p>
@@ -147,7 +147,7 @@ export default function Home() {
 
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/Miri.png" alt="Miri Son Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   Miri Son
               </h3>
               <p>Software Engineer</p>
@@ -168,7 +168,7 @@ export default function Home() {
 
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/John.png" alt="John McConnell Avatar" />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                   John McConnell
               </h3>
               <p>Software Engineer</p>
