@@ -14,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={quicksand.className}>{children}</body>
-      <link rel="icon" href="/favicon.ico"></link>
     </html>
   )
 }
