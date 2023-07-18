@@ -5,38 +5,38 @@ export default function Home() {
         <div className="navbar pt-5 bg-[#FFFFFF]">
   <div className="flex-1">
     
-  <a href='#'>
-  <div className="flex flex-row justify-start justify-items-start content-center items-center">
-  <div className='flex-row'><img src='/grpseek_logo_lg.png' className="h-12 p-0 m-0"></img></div>
-  <div><h1 className="text-4xl font-semibold pl-2 text-gray-900">gRPSeek</h1></div>
+  <a href='https://www.grpseek.io/'>
+  <div className="flex flex-row justify-start justify-items-start content-center items-center" role="button">
+  <div className='flex-row'><img alt='gRPSeek Logo' src='/grpseek_logo_lg.png' className="h-12 p-0 m-0"></img></div>
+  <div><p className="text-4xl font-semibold pl-2 text-gray-900">gRPSeek</p></div>
   </div>
   </a>
   </div>
 
   <div className="flex-none">
-    <div className="p-0.5">
+    <div aria-label="Click here for gRPSeek Github repository" className="p-0.5">
     <a href="https://github.com/oslabs-beta/gRPSeek">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-sm">
-          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+          <img alt="Github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
         </div>
       </label>
       </a>
     </div>
-    <div className="p-0.5">
+    <div aria-label="Click here for gRPSeek LinkedIn page" className="p-0.5">
     <a href="https://www.linkedin.com/company/grpseek-app/">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-sm">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" />
+          <img alt="LinkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" />
         </div>
       </label>
       </a>
     </div>
-    <div className="p-0.5">
+    <div aria-label="Click here for gRPSeek Medium article" className="p-0.5">
     <a href="https://medium.com/@grpseek/grpseek-90dc8cbac8bf">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-sm">
-          <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Medium_svg5-512.png" />
+          <img alt="Medium" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Medium_svg5-512.png" />
         </div>
       </label>
       </a>
@@ -113,12 +113,12 @@ export default function Home() {
               <ul className="flex justify-center mt-4 space-x-4">
                   
                   <li>
-                      <a href="https://www.linkedin.com/in/kenknguyen/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                      <a aria-label="Click here to view Kenneth Nguyen's LinkedIn" href="https://www.linkedin.com/in/kenknguyen/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
                           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><svg viewBox="0 0 28.87 28.87" id="linkedin"><g data-name="Layer 2"><g data-name="Layer 1"><rect width="28.87" height="28.87" fill="#0b86ca" rx="6.48" ry="6.48"></rect><path fill="#fff" d="M8 12h3v9.68H8zm1.53-4.81a1.74 1.74 0 11-1.74 1.75 1.74 1.74 0 011.74-1.75M12.92 12h2.89v1.32a3.16 3.16 0 012.85-1.56c3 0 3.61 2 3.61 4.61v5.31h-3V17c0-1.12 0-2.57-1.56-2.57s-1.8 1.22-1.8 2.48v4.79h-3z"></path></g></g></svg></svg>
                       </a>
                   </li>
                   <li>
-                      <a href="https://github.com/kennysghub" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                      <a aria-label="Click here to view Kenneth Nguyen's Github" href="https://github.com/kennysghub" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
                           <svg className="w-6 h-6" fill="#000000" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" /></svg>
                       </a>
                   </li>
@@ -133,12 +133,12 @@ export default function Home() {
               <ul className="flex justify-center mt-4 space-x-4">
                   
                   <li>
-                      <a href="https://www.linkedin.com/in/patryk-ploszaj07/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                      <a aria-label="Click here to view Patryk Ploszaj's LinkedIn" href="https://www.linkedin.com/in/patryk-ploszaj07/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
                           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><svg viewBox="0 0 28.87 28.87" id="linkedin"><g data-name="Layer 2"><g data-name="Layer 1"><rect width="28.87" height="28.87" fill="#0b86ca" rx="6.48" ry="6.48"></rect><path fill="#fff" d="M8 12h3v9.68H8zm1.53-4.81a1.74 1.74 0 11-1.74 1.75 1.74 1.74 0 011.74-1.75M12.92 12h2.89v1.32a3.16 3.16 0 012.85-1.56c3 0 3.61 2 3.61 4.61v5.31h-3V17c0-1.12 0-2.57-1.56-2.57s-1.8 1.22-1.8 2.48v4.79h-3z"></path></g></g></svg></svg>
                       </a>
                   </li>
                   <li>
-                      <a href="https://github.com/pploszaj" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                      <a aria-label="Click here to view Patryk Ploszaj's Github" href="https://github.com/pploszaj" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
                           <svg className="w-6 h-6" fill="#000000" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" /></svg>
                       </a>
                   </li>
@@ -154,12 +154,12 @@ export default function Home() {
               <ul className="flex justify-center mt-4 space-x-4">
                   
                   <li>
-                      <a href="https://www.linkedin.com/in/miri-son/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                      <a aria-label="Click here to view Miri Son's LinkedIn" href="https://www.linkedin.com/in/miri-son/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
                           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><svg viewBox="0 0 28.87 28.87" id="linkedin"><g data-name="Layer 2"><g data-name="Layer 1"><rect width="28.87" height="28.87" fill="#0b86ca" rx="6.48" ry="6.48"></rect><path fill="#fff" d="M8 12h3v9.68H8zm1.53-4.81a1.74 1.74 0 11-1.74 1.75 1.74 1.74 0 011.74-1.75M12.92 12h2.89v1.32a3.16 3.16 0 012.85-1.56c3 0 3.61 2 3.61 4.61v5.31h-3V17c0-1.12 0-2.57-1.56-2.57s-1.8 1.22-1.8 2.48v4.79h-3z"></path></g></g></svg></svg>
                       </a>
                   </li>
                   <li>
-                      <a href="https://github.com/msoncsswe" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                      <a aria-label="Click here to view Miri Son's Github" href="https://github.com/msoncsswe" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
                           <svg className="w-6 h-6" fill="#000000" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" /></svg>
                       </a>
                   </li>
@@ -175,12 +175,12 @@ export default function Home() {
               <ul className="flex justify-center mt-4 space-x-4">
                   
                   <li>
-                      <a href="https://www.linkedin.com/in/john-camilo-mcconnell/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                      <a aria-label="Click here to view John McConnell's LinkedIn" href="https://www.linkedin.com/in/john-camilo-mcconnell/" className="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
                           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><svg viewBox="0 0 28.87 28.87" id="linkedin"><g data-name="Layer 2"><g data-name="Layer 1"><rect width="28.87" height="28.87" fill="#0b86ca" rx="6.48" ry="6.48"></rect><path fill="#fff" d="M8 12h3v9.68H8zm1.53-4.81a1.74 1.74 0 11-1.74 1.75 1.74 1.74 0 011.74-1.75M12.92 12h2.89v1.32a3.16 3.16 0 012.85-1.56c3 0 3.61 2 3.61 4.61v5.31h-3V17c0-1.12 0-2.57-1.56-2.57s-1.8 1.22-1.8 2.48v4.79h-3z"></path></g></g></svg></svg>
                       </a>
                   </li>
                   <li>
-                      <a href="https://github.com/johncamilomcconnell" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                      <a aria-label="Click here to view John McConnell's Github" href="https://github.com/johncamilomcconnell" className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
                           <svg className="w-6 h-6" fill="#000000" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" /></svg>
                       </a>
                   </li>
